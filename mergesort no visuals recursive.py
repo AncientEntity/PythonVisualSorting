@@ -18,8 +18,8 @@ def MergeSort(a,b=[]):
         d = b
         if(len(d) > 1):
             d = MergeSort(b[0:len(b)//2],b[len(b)//2:len(b)])
-        #print("C:",c)
-        #print("D:",d)
+        print("C:",c)
+        print("D:",d)
         for j in range(len(b)):
             i = 0
             while(i < len(c) and c[i] < d[j]):
